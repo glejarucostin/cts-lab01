@@ -12,8 +12,7 @@ public class Main {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         try {
-            String text = null;
-            text = br.readLine();
+            String text = br.readLine();
             System.out.println(text);
         } catch (Exception e) {
            System.out.println(e.getMessage());
